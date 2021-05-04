@@ -1,12 +1,41 @@
 nav {
-background-color: grey;
-  	position: fixed;
-	right: 0;
+background-color: #a9a9a9;
 	
+  	
 }
 
 footer
  {
-background-color: grey;
+background-color: #a9a9a9;
 }
 
+#menu ul{
+		list-style: none;
+		margin: 0;
+		padding: 0;		
+		text-align:right;
+}
+
+#menu ul li{
+		display: inline-block;
+		text-align: left;
+}
+
+
+#menu ul li a{
+			color: white;
+			display: block;
+			padding: 1em 1em;
+			text-decoration: none;
+			  
+}
+
+#menu ul li a:hover{
+			background-color: #e1ab0e;
+}	
+
+#caja{
+	margin: 1em 
+	width: 40px
+	margin-left : 5em
+}
